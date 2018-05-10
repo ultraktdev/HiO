@@ -188,10 +188,9 @@
 
     <!-- Footer -->
     <footer class="py-5 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">&copy; 2018 Vizta Dana</p>
+      <div class="container text-center">
+        <a class="whatsapp m-0" href="">Copyright &copy; 2018 Vizta Dana</a>
       </div>
-      <!-- /.container -->
     </footer>
 
     <!-- Bootstrap core JavaScript -->
@@ -228,7 +227,7 @@
         $('.whatsapp').on("click", function (x) {
           x.preventDefault();
           // Message WA
-          var urlencodedtext = encodeURIComponent("Halo Karin, saya ingin informasi lebih lanjut mengenai ...");
+          var urlencodedtext = encodeURIComponent("Halo Vizta, saya ingin informasi lebih lanjut mengenai ...");
           // Kirim WA
           var whatsappphonenumber = 6281277378844; // Vizta Dana
           var whatsapp_url = "https://api.whatsapp.com/send?phone=" + whatsappphonenumber + "&text=" + urlencodedtext;
