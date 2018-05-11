@@ -50,5 +50,9 @@ a:hover {
 .gambarSamping {
   width: 100%;
   margin-top: 2em;
-  border-radius: 3px;
+  border-radius: 10px;
+}
+
+#perPax {
+  font-size: 12px;
 }
